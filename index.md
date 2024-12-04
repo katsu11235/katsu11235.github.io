@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+## 记录生活，保持练习。
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+### ——难持之以恒，望继往开来。
