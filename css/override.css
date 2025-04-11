@@ -4,10 +4,22 @@ hr {
 }
 
 body {
-    background-image: url('/assets/images/background.jpg'); /* Adjust the path to match your image location */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the background image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-image: url('/assets/images/background.jpg'); /* Adjust the image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Ensure proper stacking context */
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* White overlay with 70% transparency */
+    z-index: -1; /* Keep it behind the content */
 }
 
 /* Post navigation links */
