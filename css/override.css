@@ -3,6 +3,13 @@ hr {
   margin-bottom: 20px;
 }
 
+body {
+    background-image: url('/assets/images/background.jpg'); /* Adjust the path to match your image location */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
